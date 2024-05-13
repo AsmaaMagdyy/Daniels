@@ -54,7 +54,7 @@
         background-color: #111;
     }
 
-    body:not(:has(:target)) .nav-link.home::before,
+    body:not(:has(.active)) .nav-link.home::before,
     body:has(.home.active) .nav-link.home::before,
     body:has(.about.active) .nav-link.about::before,
     body:has(.services.active) .nav-link.services::before,
