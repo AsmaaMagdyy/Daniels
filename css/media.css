@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+
+    /* <===========Global Editing Start============> */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* <===========Global Editing End============> */
+
+    /* <===========Nav bar Start============> */
+    nav .container {
+        padding-top: 20px;
+    }
+
+    .navbar-collapse {
+        width: 100vw;
+        background-color: #fff;
+    }
+
+    nav .collapse {
+        margin-top: 10px;
+        padding: 0 0;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+        align-items: center;
+    }
+
+    .container>.navbar-collapse {
+        margin-right: -15px;
+        margin-left: -15px;
+
+
+    }
+
+    .navbar-nav .nav-link.active,
+    nav .nav-link {
+        color: #111 !important;
+        font-size: 13px;
+    }
+
+
+    .nav-link::before {
+        background-color: #111;
+    }
+
+    body:not(:has(:target)) .nav-link.home::before,
+    body:has(.home.active) .nav-link.home::before,
+    body:has(.about.active) .nav-link.about::before,
+    body:has(.services.active) .nav-link.services::before,
+    body:has(.portfolio.active) .nav-link.portfolio::before,
+    body:has(.testimonial.active) .nav-link.testimonial::before,
+    body:has(.our-team.active) .nav-link.our-team::before,
+    body:has(.contact.active) .nav-link.contact::before {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* <===========Nav bar End============> */
+
+}
+
+@media (min-width: 768px) {
+
+    /* <===========Nav bar Start============> */
+    .home span {
+        font-size: 60px;
+    }
+
+    
+    body:not(:has(.home.active)) nav .collapse {
+        padding: 0;
+    }
+
+    /* <===========Nav bar End============> */
+}
+
+@media (min-width: 992px) {
+
+    /* <===========Nav bar Start============> */
+    .navbar .navbar-nav>li {
+        margin: 5px 0 0 25px;
+
+    }
+
+    .mt-6 {
+        margin-top: 0;
+
+    }
+
+    /* <===========Nav bar End============> */
+
+    /* <===========About Start============> */
+    .py-6 {
+        padding: 100px 0;
+    }
+
+    /* <===========About End============> */
+    /* <===========Contact Start============> */
+    .px-lg-6 {
+        padding-right: 7rem !important;
+        padding-left: 7rem !important;
+    }
+
+    /* <===========Contact End============> */
+}

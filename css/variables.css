@@ -1,0 +1,15 @@
+
+
+*:root {
+    --white-color: #fff;
+    --dark-dark-color: #1C1C1C;
+    --p-color: #748182;
+    --heading-color: #343434;
+    --bg-greey:#F7F7F7;
+    --grey-color:#EEEEEE;
+    --nav-tabs-color:#222222;
+    --bg-team-card:#5B5B5B;
+    --fs-heading:3rem;
+    --poppins-fm:"Poppins", sans-serif;
+    --montserrat-fm:"Montserrat", sans-serif;
+}

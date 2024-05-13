@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta > -->
+  <title>Daniels</title>
+  <!-- favicon link -->
+  <link rel="icon" href="./imgs/favicon.ico" type="image/png">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- google font link -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- bootstrab link -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- root variables link -->
+  <link rel="stylesheet" href="./css/variables.css">
+  <!-- css file -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- media queiry link -->
+  <link rel="stylesheet" href="./css/media.css">
+  
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" fm-poppins>
+
+<!-- ====== Preload Start=====  -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+ 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/9S2RQEcArb0?si=86S4qxCqh9SX5Pi2"
+ title="YouTube video player" frameborder="0"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- ====== Preload End=====  -->
+
+  <!-- ====== Nav Section Start ======  -->
+  <nav id="navbar-example2"
+    class="navbar navbar-expand-md fm-montserrat position-absolute w-100  z-3 justify-content-center  ">
+    <div class="container">
+      <a class="navbar-brand text-uppercase  fs-7 fw-logo text-white ltr-space" href="#">Daniels</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-8 fm-poppins">
+          <li class="nav-item">
+            <a class="nav-link active text-white home " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white about" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white services" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white portfolio" href="#portfolio">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white testimonial" href="#testimonial">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white our-team" href="#our-team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ====== Nav Section End ======  -->
+
+
+  <!-- ====== Header Section Start ======  -->
+  <header id="home" class="home vh-100">
+    <div class="container h-100 d-flex justify-content-center align-items-center text-center text-white fm-montserrat">
+      <div class="row justify-content-center align-items-center gap-2 mt-5">
+        <h1>Hello</h1>
+
+
+        <!-- Element to contain animated typing -->
+        <span>I Am <span id="element"></span></span>
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+          var typed = new Typed('#element', {
+            strings: ['Larry Daniels', 'Developer', 'Designer'],
+            typeSpeed: 80,
+            backSpeed: 80,
+            loop: true,
+            loopCount: Infinity,
+          });
+        </script>
+
+        <div class="social d-flex justify-content-center gap-1 mt-4 ">
+          <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                class="fa-brands fa-facebook-f"></i></span></a>
+          <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                class="fa-brands fa-twitter"></i></span></a>
+          <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                class="fa-brands fa-linkedin-in"></i></span></a>
+          <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                class="fa-brands fa-behance"></i></span></a>
+          <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                class="fa-brands fa-youtube"></i></span></a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <!-- ====== Header Section End ======  -->
+  <main>
+    <!-- ====== Main Section Start ======  -->
+
+
+
+    <!-- ====== About Section Start ======  -->
+    <section id="about" class="about py-6">
+      <div class="container">
+        <div class="row gx-5 justify-content-center align-items-start mt-4">
+          <div class="col-lg-5">
+            <div class="about-img">
+              <div class="hero-img position-relative">
+                <img src="./imgs/hero.jpg" alt="man" class="w-95">
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-7 mt-6">
+            <div class="about-text fm-poppins  ">
+              <h2 class="fm-montserrat fw-800 text-color-heading">About Me.</h2>
+              <span class="ui-ux">UI / UX DESIGNER & WEB DEVELOPER</span>
+              <p class="py-3">I am <b>Jerry Daniels</b> Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem
+                Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but
+                also the leap into electronic but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+              <div class="progress-part d-flex flex-column gap-4 fm-montserrat fw-500">
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div
+                    class="progress-bar bg-dark-color flex-row justify-content-between align-items-center px-2 web-design">
+                    <span>Web Design</span>
+                    <span class="percentage">95%</span>
+                  </div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div
+                    class="progress-bar bg-dark-color flex-row justify-content-between align-items-center px-2 branding">
+                    <span>Branding</span>
+                    <span class="percentage">80%</span>
+                  </div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div
+                    class="progress-bar bg-dark-color flex-row justify-content-between align-items-center px-2 development">
+                    <span>Development</span>
+                    <span class="percentage">90%</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="links d-flex mt-5 gap-1">
+                <a href="#" class="buton cv">Download C.V</a>
+                <a href="#contact" class="buton con-me bg-white">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+    <!-- ====== About Section End=====  -->
+
+
+    <!-- ====== Services Section Start ======  -->
+    <section id="services" class="services bg-greey pv-100">
+      <div class="container text-center">
+        <h3 class=" fm-montserrat section-heading">Services.</h3>
+        <div class="row gy-4 pt-70">
+          <div class="col-lg-4">
+            <div class="inner bg-body d-flex flex-column justify-content-center align-items-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h4 class="h6 fs-7 fm-montserrat fw-800">Web Design</h4>
+              <p class=" fm-poppins fs-8 p-color ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner bg-body d-flex flex-column justify-content-center align-items-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <h4 class="h6 fs-7 fm-montserrat fw-800">Branding</h4>
+              <p class=" fm-poppins fs-8 p-color ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner bg-body d-flex flex-column justify-content-center align-items-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-umbrella"></i>
+              </div>
+              <h4 class="h6 fs-7 fm-montserrat fw-800">Development</h4>
+              <p class=" fm-poppins fs-8 p-color ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner bg-body d-flex flex-column justify-content-center align-items-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-gem"></i>
+              </div>
+              <h4 class="h6 fs-7 fm-montserrat fw-800">Creative Design</h4>
+              <p class=" fm-poppins fs-8 p-color ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner bg-body d-flex flex-column justify-content-center align-items-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-television"></i>
+              </div>
+              <h4 class="h6 fs-7 fm-montserrat fw-800">Fully Responsive</h4>
+              <p class=" fm-poppins fs-8 p-color ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner bg-body d-flex flex-column justify-content-center align-items-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-camera"></i>
+              </div>
+              <h4 class="h6 fs-7 fm-montserrat fw-800">Retina Ready</h4>
+              <p class=" fm-poppins fs-8 p-color ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ====== Services Section End=====  -->
+
+    <!-- ====== Portfolio Section Start ======  -->
+    <section id="portfolio" class="portfolio pv-100">
+      <div class="container text-center">
+        <h3 class=" fm-montserrat section-heading">Portfolio.</h3>
+
+        <ul class="nav  justify-content-center mt-5 mb-5 fm-poppins gap-5" id="underline-tab" nav-underline
+          role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active all " id="underline-all-tab" data-bs-toggle="pill"
+              data-bs-target="#underline-all" type="button" role="tab" aria-controls="underline-all"
+              aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link brand " id="underline-brand-tab " data-bs-toggle="pill"
+              data-bs-target="#underline-brand" type="button" role="tab" aria-controls="underline-brand"
+              aria-selected="false">Brand</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link design" id="underline-design-tab" data-bs-toggle="pill"
+              data-bs-target="#underline-design" type="button" role="tab" aria-controls="underline-design"
+              aria-selected="false">Design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link graphic" id="underline-graphic-tab" data-bs-toggle="pill"
+              data-bs-target="#underline-graphic" type="button" role="tab" aria-controls="underline-graphic"
+              aria-selected="false">Graphic</button>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" id="underline-tabContent">
+          <div class="tab-pane fade all-tap-pane  show active" id="underline-all" role="tabpanel"
+            aria-labelledby="underline-all-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/1.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/2.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/3.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/4.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/5.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/6.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade brand-tap-pane " id="underline-brand" role="tabpanel"
+            aria-labelledby="underline-brand-tab" tabindex="0">
+            <div class="row gy-4">
+
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/4.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/6.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade design-tap-pane " id="underline-design" role="tabpanel"
+            aria-labelledby="underline-design-tab" tabindex="0">
+            <div class="row gy-4">
+
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/2.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/5.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade graphic-tap-pane " id="underline-graphic" role="tabpanel"
+            aria-labelledby="underline-graphic-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/1.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/3.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="img-nav-tab position-relative">
+                  <img src="./imgs/portfolio/5.jpg" alt="charger" class="w-100">
+                  <div
+                    class="layer-img position-absolute  z-1   d-flex flex-column justify-content-center align-items-center">
+                    <h6 class="fm-montserrat">WEB DESIGN</h6>
+                    <div class="icon-nav-tab d-flex gap-1">
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></span></a>
+                      <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
+                            class="fa-solid fa-magnifying-glass-plus"></i></span></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ====== Portfolio Section End=====  -->
+
+
+    <!-- ====== Testimonial Section Start ======  -->
+    <section id="testimonial" class="testimonial pb-180 pv-100 bg-greey">
+      <div class="container text-center">
+        <h3 class=" fm-montserrat section-heading">Testimonials.</h3>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active mt-77 px-lg-5">
+              <div class="person-img mx-auto">
+                <img src="./imgs/1_New1.jpg" alt="man" class="w-100 rounded rounded-circle">
+              </div>
+              <p class="pt-3 fm-poppins p-color fs-15">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <h6 class="fm-montserrat fw-600 h-color">Alex Smith</h6>
+              <span class="fm-poppins">Envato Customer</span>
+
+            </div>
+            <div class="carousel-item mt-77 px-lg-5">
+              <div class="person-img mx-auto">
+                <img src="./imgs/1_New1.jpg" alt="man" class="w-100 rounded rounded-circle">
+              </div>
+              <p class="pt-3 fm-poppins p-color fs-15">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <h6 class="fm-montserrat fw-600 h-color">Alex Smith</h6>
+              <span class="fm-poppins">Envato Customer</span>
+
+            </div>
+            <div class="carousel-item mt-77 px-lg-5">
+              <div class="person-img mx-auto">
+                <img src="./imgs/1_New1.jpg" alt="man" class="w-100 rounded rounded-circle">
+              </div>
+              <p class="pt-3 fm-poppins p-color fs-15">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <h6 class="fm-montserrat fw-600 h-color">Alex Smith</h6>
+              <span class="fm-poppins">Envato Customer</span>
+
+            </div>
+          </div>
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ====== Testimonial Section End=====  -->
+
+
+    <!-- ====== After-Testimonial Section Start ======  -->
+    <section id="after-testimonial" class="after-testimonial pv-100">
+      <div class="container text-center">
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <div class="inner h-color fs-30 d-flex flex-column justify-content-center align-items-center gap-3">
+              <i class="fa-solid fa-users"></i>
+              <h3 id="generatedUsers" class="fm-montserrat fw-900 mt-2"></h3>
+              <p class="fm-poppins p-color fs-15 fw-600">Happy Customers</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="inner h-color fs-30 d-flex flex-column justify-content-center align-items-center gap-3">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h3 id="generatedThumbs" class="fm-montserrat fw-900 mt-2"></h3>
+              <p class="fm-poppins p-color fs-15 fw-600">Complete Projects</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="inner h-color fs-30 d-flex flex-column justify-content-center align-items-center gap-3">
+              <i class="fa-solid fa-bullhorn"></i>
+              <h3 id="generatedBullhorn" class="fm-montserrat fw-900 mt-2"></h3>
+              <p class="fm-poppins p-color fs-15 fw-600">Lines Of Code</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="inner h-color fs-30 d-flex flex-column justify-content-center align-items-center gap-3">
+              <i class="fa-solid fa-cloud-arrow-down"></i>
+              <h3 id="generatedCloudArrow" class="fm-montserrat fw-900 mt-2"></h3>
+              <p class="fm-poppins p-color fs-15 fw-600">Files Downloaded</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== After-Testimonial Section End=====  -->
+
+
+    <!-- ====== Our Team Section Start ======  -->
+    <section id="our-team" class="our-team bg-greey pv-100">
+      <div class="container text-center">
+        <h3 class=" fm-montserrat section-heading text-capitalize">our team.</h3>
+        <div class="row gy-2  mt-130">
+          <div class="col-md-6 col-lg-4">
+            <div class="inner">
+              <div class="card  border-0 ">
+                <div
+                  class="img-team-member overflow-hidden position-relative d-flex justify-content-center align-items-center">
+                  <img src="./imgs/1.jpg" class="w-100 img-scale-1" alt="team-member-photo">
+
+                  <div
+                    class="team-layer team-layer-1 position-absolute d-flex justify-content-center align-items-center"
+                    role="button">
+                    <div class="d-flex gap-3">
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-facebook-f"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-twitter"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-pinterest"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-linkedin-in"></i></span></a>
+
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <div class="card-body rounded rounded-top-0 rounded-bottom-2 text-white fm-montserrat">
+                  <h4 class="fs-25 fw-500">John Doe</h4>
+                  <h6 class="text-uppercase fs-20 fw-700">front-end-developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="inner">
+              <div class="card  border-0 ">
+                <div
+                  class="img-team-member overflow-hidden position-relative d-flex justify-content-center align-items-center">
+                  <img src="./imgs/2.jpg" class="w-100 img-scale-2" alt="team-member-photo">
+
+                  <div
+                    class="team-layer team-layer-2 position-absolute d-flex justify-content-center align-items-center"
+                    role="button">
+                    <div class="d-flex gap-3">
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-facebook-f"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-twitter"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-pinterest"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-linkedin-in"></i></span></a>
+
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <div class="card-body rounded rounded-top-0 rounded-bottom-2 text-white fm-montserrat">
+                  <h4 class="fs-25 fw-500">Dave Wood</h4>
+                  <h6 class="text-uppercase fs-20 fw-700">back-end-developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="inner">
+              <div class="card  border-0 ">
+                <div
+                  class="img-team-member overflow-hidden position-relative d-flex justify-content-center align-items-center">
+                  <img src="./imgs/1.jpg" class="w-100 img-scale-3" alt="team-member-photo">
+
+                  <div
+                    class="team-layer team-layer-3 position-absolute d-flex justify-content-center align-items-center"
+                    role="button">
+                    <div class="d-flex gap-3">
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-facebook-f"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-twitter"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-pinterest"></i></span></a>
+                      <a href="#"> <span class="team-layer-span d-flex justify-content-center align-items-center "><i
+                            class="fa-brands fa-linkedin-in"></i></span></a>
+
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <div class="card-body rounded rounded-top-0 rounded-bottom-2 text-white fm-montserrat">
+                  <h4 class="fs-25 fw-500">Claire Chedd</h4>
+                  <h6 class="text-uppercase fs-20 fw-700">back-end-developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ====== Our Team Section End=====  -->
+
+
+    <!-- ====== Contact Section Start  ======  -->
+    <section id="contact" class="contact text-center fm-poppins pv-100">
+      <h3 class=" fm-montserrat section-heading">Contact Us.</h3>
+      <div class="container text-start pt-5 px-lg-6">
+        <div class="row justify-content-center gy-3 ">
+          <div class="col-lg-4 ">
+            <div class="contact-inner d-flex flex-column justify-content-center align-items-center ">
+              <span class="contact-span d-flex justify-content-center align-items-center "><i
+                  class="fa-solid fa-location-arrow"></i></span>
+              <h6 class="mt-3 fm-montserrat fw-700 h-color">Address</h6>
+              <p class="fs-15 p-color">6834 Hollywood Blvd - Los Angeles CA</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-inner d-flex flex-column justify-content-center align-items-center ">
+              <span class="contact-span d-flex justify-content-center align-items-center "><i
+                  class="fa-solid fa-envelope"></i></span>
+              <h6 class="mt-3 fm-montserrat fw-700 h-color">Email</h6>
+              <p class="fs-15 p-color">Support@website.com</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-inner d-flex flex-column justify-content-center align-items-center ">
+              <span class="contact-span d-flex justify-content-center align-items-center "><i
+                  class="fa-solid fa-phone"></i></span>
+              <h6 class="mt-3 fm-montserrat fw-700 h-color">Phone</h6>
+              <p class="fs-15 p-color">+20 010 2517 8918</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="row mt-77  gy-3">
+          <div class="col-lg-6">
+            <input type="text" class="w-100" required placeholder="Name" name="name">
+
+          </div>
+          <div class="col-lg-6">
+            <input type="email" class="w-100" required placeholder="Email" name="email">
+
+          </div>
+          <div class="col-12">
+            <textarea name="message" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12">
+            <button class=" fs-13">Submit</button>
+          </div>
+        </form>
+
+
+      </div>
+
+    </section>
+
+    <!-- ====== Contact Section End=====  -->
+  </main>
+  <!-- ====== Main Section End ======  -->
+
+  <!-- ====== Footer Section Start ======  -->
+  <footer id="footer" class="footer bg-footer py-4">
+    <div class="container  d-flex align-items-center justify-content-center">
+      <p class="p-color fs-13 fm-poppins ">Copy Right 2018 © By Daniels All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- ====== Footer Section End=====  -->
+  <script src="./js/script.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
