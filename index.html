@@ -90,20 +90,6 @@
         <!-- Element to contain animated typing -->
         <span>I Am <span id="element"></span></span>
 
-        <!-- Load library from the CDN -->
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-        <!-- Setup and start animation! -->
-        <script>
-          var typed = new Typed('#element', {
-            strings: ['Larry Daniels', 'Developer', 'Designer'],
-            typeSpeed: 80,
-            backSpeed: 80,
-            loop: true,
-            loopCount: Infinity,
-          });
-        </script>
-
         <div class="social d-flex justify-content-center gap-1 mt-4 ">
           <a href="#"> <span class="d-flex justify-content-center align-items-center "><i
                 class="fa-brands fa-facebook-f"></i></span></a>
@@ -129,7 +115,7 @@
     <!-- ====== About Section Start ======  -->
     <section id="about" class="about py-6">
       <div class="container">
-        <div class="row gx-5 justify-content-center align-items-start mt-4">
+        <div class="row justify-content-center align-items-start mt-4">
           <div class="col-lg-5">
             <div class="about-img">
               <div class="hero-img position-relative">
@@ -183,9 +169,8 @@
             </div>
           </div>
         </div>
-
-
-    </section>
+      </div>
+  </section>
 
     <!-- ====== About Section End=====  -->
 
@@ -816,6 +801,9 @@
     </div>
   </footer>
   <!-- ====== Footer Section End=====  -->
+
+   <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
 </body>

@@ -1,4 +1,11 @@
-
+// <!--====== Setup and start animation! ========-->
+var typed = new Typed('#element', {
+    strings: ['Larry Daniels', 'Developer', 'Designer'],
+    typeSpeed: 80,
+    backSpeed: 80,
+    loop: true,
+    loopCount: Infinity,
+  });
 
 
 
